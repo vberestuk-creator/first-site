@@ -1,0 +1,58 @@
+/* Общие стили страницы */
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Контейнер по центру */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Заголовок */
+h1 {
+  color: #2c7be5;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Текст */
+p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Кнопка */
+.btn {
+  background-color: #2c7be5;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1a5dcc;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+}
+.card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  width: 90%;
+  max-width: 420px;
+}
