@@ -55,6 +55,7 @@ p {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
   width: 90%;
   max-width: 420px;
+   position: relative;
 }@media (max-width: 480px) {
   .card {
     padding: 28px 20px;
@@ -108,4 +109,21 @@ p {
   color: #2c7be5;
   text-decoration: none;
   font-weight: bold;
+}
+.lang-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 1px solid #2c7be5;
+  color: #2c7be5;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.lang-btn:hover {
+  background: #2c7be5;
+  color: white;
 }
